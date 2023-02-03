@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="StarTextTheme">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/starAppText</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="StarTextTheme.TitleText">
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:textColor">@color/colorAppText</item>
+    </style>
+
+    <style name="StarTextTheme.Normal14">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="StarTextTheme.Normal15">
+        <item name="android:textSize">@dimen/sp_15</item>
+    </style>
+
+    <style name="StarTextTheme.Normal16">
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="StarTextTheme.Normal18">
+        <item name="android:textSize">@dimen/sp_18</item>
+    </style>
+
+    <style name="StarTextTheme.Normal20">
+        <item name="android:textSize">@dimen/sp_20</item>
+    </style>
+
+    <style name="StarTextTheme.Normal22">
+        <item name="android:textSize">@dimen/sp_22</item>
+    </style>
+
+    <style name="StarTextTheme.Normal25">
+        <item name="android:textSize">@dimen/sp_25</item>
+    </style>
+
+    <style name="StarTextTheme.Bold13">
+        <item name="android:textSize">@dimen/sp_13</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StarTextTheme.Bold14">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StarTextTheme.Bold15">
+        <item name="android:textSize">@dimen/sp_15</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StarTextTheme.Bold16">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StarTextTheme.Bold18">
+        <item name="android:textSize">@dimen/sp_18</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StarTextTheme.Bold20">
+        <item name="android:textSize">@dimen/sp_20</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StarTextTheme.Bold22">
+        <item name="android:textSize">@dimen/sp_22</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StarTextTheme.Bold25">
+        <item name="android:textSize">@dimen/sp_25</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="StarEditTheme">
+        <item name="android:textSize">@dimen/sp_13</item>
+        <item name="android:textColor">@color/starAppText</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorHint">@color/starColorHint</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="StarEditTheme.Left">
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <style name="StarEditTheme.LeftTop">
+        <item name="android:gravity">left|top</item>
+    </style>
+
+    <style name="StarEditTheme.LeftTop.PaddingHorizontal10">
+        <item name="android:gravity">left|top</item>
+        <item name="android:paddingLeft">@dimen/dp_10</item>
+        <item name="android:paddingRight">@dimen/dp_10</item>
+    </style>
+
+    <style name="StarEditTheme.LeftTop.PaddingHorizontal12">
+        <item name="android:gravity">left|top</item>
+        <item name="android:paddingLeft">@dimen/dp_12</item>
+        <item name="android:paddingRight">@dimen/dp_12</item>
+    </style>
+
+    <style name="StarEditTheme.LeftTop.PaddingHorizontal12Top5">
+        <item name="android:gravity">left|top</item>
+        <item name="android:paddingLeft">@dimen/dp_12</item>
+        <item name="android:paddingRight">@dimen/dp_12</item>
+        <item name="android:paddingTop">@dimen/dp_5</item>
+        <item name="android:paddingBottom">@dimen/dp_5</item>
+    </style>
+
+
+    <style name="StarEditTheme.LeftTop.PaddingHorizontal15">
+        <item name="android:gravity">left|top</item>
+        <item name="android:paddingLeft">@dimen/dp_15</item>
+        <item name="android:paddingRight">@dimen/dp_15</item>
+    </style>
+
+    <style name="StarEditTheme.LeftTop.PaddingHorizontal15Top5">
+        <item name="android:gravity">left|top</item>
+        <item name="android:paddingLeft">@dimen/dp_10</item>
+        <item name="android:paddingRight">@dimen/dp_10</item>
+        <item name="android:paddingTop">@dimen/dp_5</item>
+        <item name="android:paddingBottom">@dimen/dp_5</item>
+    </style>
+
+    <style name="StarEditTheme.LeftTop.PaddingHorizontal15Top7">
+        <item name="android:gravity">left|top</item>
+        <item name="android:paddingLeft">@dimen/dp_15</item>
+        <item name="android:paddingRight">@dimen/dp_15</item>
+        <item name="android:paddingTop">@dimen/dp_7</item>
+        <item name="android:paddingBottom">@dimen/dp_7</item>
+    </style>
+
+</resources>

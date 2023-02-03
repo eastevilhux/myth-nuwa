@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="starAppText">#101010</color>
+    <color name="slColorLine">#C8C8C8</color>
+    <color name="slColorTitle">#0A0A0A</color>
+    <color name="starColorHint">#999999</color>
+    <color name="starColorSubTitle">#969696</color>
+    <color name="colorRed">#FF0000</color>
+    <color name="starGrey">#808080</color>
+    <color name="starGrey_10">#8080801A</color>
+    <color name="starGrey_15">#80808026</color>
+    <color name="starGrey_20">#80808033</color>
+    <color name="starGrey_25">#80808040</color>
+    <color name="starGrey_30">#8080804D</color>
+    <color name="starGrey_35">#80808059</color>
+    <color name="starGrey_40">#80808066</color>
+    <color name="starGrey_45">#80808073</color>
+    <color name="starGrey_50">#80808080</color>
+    <color name="starGrey_55">#8080808C</color>
+    <color name="starGrey_60">#80808099</color>
+    <color name="starGrey_65">#808080A6</color>
+    <color name="starGrey_70">#808080B3</color>
+    <color name="starGrey_75">#808080BF</color>
+    <color name="starGrey_80">#808080CC</color>
+    <color name="starGrey_85">#808080D9</color>
+    <color name="starGrey_90">#808080E6</color>
+    <color name="starGrey_95">#808080F2</color>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="navText"
+            type="androidx.databinding.ObservableField&lt;String&gt;" />
+
+        <variable
+            name="inputText"
+            type="androidx.databinding.ObservableField&lt;String&gt;" />
+
+        <variable
+            name="inputEable"
+            type="androidx.databinding.ObservableField&lt;Boolean&gt;" />
+
+        <variable
+            name="hintText"
+            type="androidx.databinding.ObservableField&lt;String&gt;" />
+
+        <variable
+            name="lineState"
+            type="androidx.databinding.ObservableField&lt;Boolean&gt;" />
+
+        <variable
+            name="rightImageState"
+            type="androidx.databinding.ObservableField&lt;Boolean&gt;" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_input_text"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dp_0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            style="@style/AppTextTheme.Normal"
+            android:text="@{navText}"
+            app:layout_constraintBottom_toTopOf="@id/tv_input_line" />
+
+        <EditText
+            android:id="@+id/et_input_text"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="@dimen/dp_0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tv_input_text"
+            app:layout_constraintEnd_toStartOf="@id/iv_input_right"
+            style="@style/StarEditTheme.Left"
+            android:hint="@{hintText}"
+            app:layout_constraintBottom_toTopOf="@id/tv_input_line"
+            android:visibility="@{inputEable}"/>
+
+        <TextView
+            android:id="@+id/tv_input_content"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="@dimen/dp_0"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tv_input_text"
+            app:layout_constraintEnd_toStartOf="@id/iv_input_right"
+            style="@style/StarEditTheme.Left"
+            android:text="@{inputText}"
+            app:layout_constraintBottom_toTopOf="@id/tv_input_line"
+            android:visibility="@{!inputEable}"/>
+
+        <TextView
+            android:id="@+id/tv_input_line"
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="@dimen/dp_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="@{lineState}"/>
+
+        <ImageView
+            android:id="@+id/iv_input_right"
+            android:layout_width="@dimen/dp_15"
+            android:layout_height="@dimen/dp_15"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:visibility="@{rightImageState}"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

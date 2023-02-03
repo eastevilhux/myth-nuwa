@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RoundImageView">
+        <!-- 描边宽度-->
+        <attr name="lyn_border_width" format="dimension"/>
+        <!-- 描边颜色-->
+        <attr name="lyn_border_color" format="color"/>
+        <!--圆角大小-->
+        <attr name="lyn_corner_radius" format="dimension"/>
+        <!--左上圆角大小-->
+        <attr name="lyn_leftTop_corner_radius" format="dimension"/>
+        <!--右上圆角大小-->
+        <attr name="lyn_rightTop_corner_radius" format="dimension"/>
+        <!--左下圆角大小-->
+        <attr name="lyn_leftBottom_corner_radius" format="dimension"/>
+        <!--右下圆角大小-->
+        <attr name="lyn_rightBottom_corner_radius" format="dimension"/>
+        <!--图片类型：圆角或者圆形-->
+        <attr name="lyn_type" format="enum">
+            <enum name="oval" value="2"/>
+            <enum name="round" value="1"/>
+            <enum name="circle" value="0"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="InputLayout">
+        <attr name="nav_text" format="string"/>
+        <attr name="nav_text_width" format="dimension"/>
+        <attr name="nav_margin_left" format="string"/>
+        <attr name="nav_margin_right" format="string"/>
+        <attr name="nav_text_size" format="dimension"/>
+        <attr name="nav_text_color" format="color"/>
+        <attr name="nav_text_gravity" format="enum">
+            <enum name="center" value="0"/>
+            <enum name="center_vertical_left" value="1"/>
+            <enum name="center_vertical_right" value="2"/>
+        </attr>
+        <attr name="hint_text" format="string"/>
+        <attr name="hint_color" format="color"/>
+        <attr name="input_edit_margin_left" format="dimension"/>
+        <attr name="input_edit_margin_right" format="dimension"/>
+        <attr name="input_text" format="string"/>
+        <attr name="input_text_size" format="dimension"/>
+        <attr name="input_text_color" format="color"/>
+        <attr name="input_gravity" format="enum">
+            <enum name="center" value="0"/>
+            <enum name="center_vertical_left" value="1"/>
+            <enum name="center_vertical_right" value="2"/>
+        </attr>
+        <attr name="line_state" format="boolean"/>
+        <attr name="line_color" format="color"/>
+        <attr name="line_height" format="dimension"/>
+        <attr name="line_margin_left" format="dimension"/>
+        <attr name="line_margin_right" format="dimension"/>
+        <attr name="guide_falg" format="boolean"/>
+        <attr name="guide_width" format="dimension"/>
+        <attr name="guide_height" format="dimension"/>
+        <attr name="guide_margin_left" format="dimension"/>
+        <attr name="guide_margin_right" format="dimension"/>
+        <attr name="guide_src" format="reference"/>
+        <attr name="navWeight" format="float"/>
+        <attr name="inputWeight" format="float"/>
+        <attr name="input_enable" format="boolean"/>
+        <attr name="input_type" format="enum">
+            <enum name="phone" value="1"/>
+            <enum name="email" value="2"/>
+            <enum name="textPassword" value="3"/>
+            <enum name="numberPassword" value="4" />
+            <enum name="four_digits_space" value="5" />
+            <enum name="number" value="6"/>
+            <enum name="id_card" value="7"/>
+        </attr>
+        <attr name="max_line" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="LuckyDrawView">
+        <!--奖品背景颜色-->
+        <attr name="prize_background_color" format="color"/>
+        <!--奖品选中颜色-->
+        <attr name="prize_color" format="color"/>
+        <!--中间开始按钮背景颜色-->
+        <attr name="middle_background_color" format="color"/>
+        <!--中间开始按钮颜色-->
+        <attr name="middle_button_color" format="color"/>
+        <!--中间开始按钮文本颜色-->
+        <attr name="middle_text_color" format="color"/>
+        <!--中间开始按钮文本-->
+        <attr name="middle_text" format="string"/>
+        <!--奖品文本颜色-->
+        <attr name="prize_text_color" format="color"/>
+        <!--奖品被选中的文本颜色-->
+        <attr name="prize_text_checked_color" format="color"/>
+        <!--奖品旋转时候高亮时候的文本颜色,即：旋转时，正好转动到对应的下标的那个单元格的文本颜色-->
+        <attr name="prize_text_rotated_color" format="color"/>
+        <!--奖品下标-->
+        <attr name="prize_position" format="integer"/>
+    </declare-styleable>
+</resources>
