@@ -42,6 +42,15 @@ abstract class AdapterBuilder<I : IRecyclerItem, A : RichBaseAdapter<I>> {
         return this
     }
 
+    fun addVariable(key : Int,value : Any): AdapterBuilder<I, A> {
+        beanMap.put(key,value);
+        return this;
+    }
+
+    fun <T : IRichPresenter<I>> addListenter(key : Int,listenter : T): AdapterBuilder<I, A> {
+        return addVariable(key,listenter);
+    }
+
     fun dataList(dataList: List<I>?): AdapterBuilder<I, A> {
         this.dataList = dataList
         return this
